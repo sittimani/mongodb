@@ -1,0 +1,30 @@
+GET http://localhost:3000/employees
+
+###
+
+POST http://localhost:3000/add-employee
+Content-Type: application/json
+
+{
+    "name": "MK",
+    "age": 30,
+    "salary": 70000,
+    "team": "MEAN"
+}
+
+###
+GET http://localhost:3000/split-team
+
+###
+PUT http://localhost:3000/update/61921acd2fc461c04a8d382b
+Content-Type: application/json
+
+{
+    "name": "MK",
+    "age": 30,
+    "salary": 70000,
+    "team": "MERN"
+}
+
+###
+DELETE http://localhost:3000/delete/61924c2e297da56b6177ebe1
